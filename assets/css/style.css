@@ -220,11 +220,30 @@ body {
   @media screen and (max-width:980px) {
     .container {
       width: auto;
-    
+    }
+
+    body {
+      background: lightgray;
     }
   }
 
   @media screen and (max-width:768px) {
+    nav {
+      margin-right: 25px;
+      padding-right: 20px;
+    }
+
+    #main-container {
+      margin-bottom: 500px;
+    }
+
+    h1 {
+      font-size: 27px;
+    }
+
+    p{
+      font-size: 16px;
+    }
 
   }
 
@@ -233,7 +252,12 @@ body {
       float: center;
     }
     
-    .main-section {
+    .work {
+      float: none;
+      display: inline-grid;
+    }
+
+    .main-container {
       display: inline-grid;
     }
 
@@ -241,7 +265,7 @@ body {
       width: 100%;
     }
 
-    nav {
+    .nav-links {
       width: 100%;
       text-align: center;
     }

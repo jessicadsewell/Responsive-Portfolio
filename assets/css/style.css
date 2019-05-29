@@ -4,6 +4,7 @@ body {
     line-height: 34px;
     color: #777777;
     background: url("../images/concrete_seamless.png");
+    background: lightgray;
   }
   
   * {
@@ -221,10 +222,6 @@ body {
     .container {
       width: auto;
     }
-
-    body {
-      background: lightgray;
-    }
   }
 
   @media screen and (max-width:768px) {
@@ -257,8 +254,8 @@ body {
       display: inline-grid;
     }
 
-    .main-container {
-      display: inline-grid;
+    #main-container {
+      margin: 0 10px;
     }
 
     #logo {
@@ -276,5 +273,10 @@ body {
 
     .auth-image {
       width: 280px;
+    }
+    
+    .main-section{
+      margin-bottom: 400px;
+
     }
   }
